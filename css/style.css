@@ -391,7 +391,6 @@ body{
 .section-4 .lista-s4 .ul-s4 ul li{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 
     width: 100%;
     margin-bottom: 20px;
@@ -611,7 +610,7 @@ body{
     color: var(--branco);
 
     padding: 20px 0;
-    background-color: var(--secundaria);
+    background-color: var(--cinza);
     margin-bottom: 120px !important;
 }
 
@@ -1069,36 +1068,42 @@ body{
 
     /* Seção 3 */
 
-    .section-3 .lista-s3 ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        margin: 40px auto;
+    .section-3 .lista-s3{
         padding: 0 !important;
-        width: 100%;
     }
 
+    .section-3 .lista-s3 h2{
+        margin: 50px auto !important;
+        text-align: center;
+    }
+    
+    .section-3 .lista-s3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end !important;
+    
+        margin: 0 !important;
+    }
+    
+    .section-3 .lista-s3 ul{
+        width: 100%;
+        margin-bottom: 50px !important;
+    }
+    
     .section-3 .lista-s3 ul li{
         display: flex;
         flex-direction: row;
-
-        width: 90%;
+    
+        width: 100%;
         margin-bottom: 20px;
-
+    
         list-style: none !important;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: 500;
         color: var(--branco);
-    }
-
-    .section-3 .lista-s3 ul li span{
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-
-        font-size: 2.4rem;
-        color: var(--secundaria);
+        text-shadow: 0 0 50px rgba(0, 0, 0, 0.513);
+        text-align: left !important;
     }
 
     .bg-img-s3{
@@ -1115,12 +1120,22 @@ body{
 
 
     /* Seção 4 */
+
+    .section-4 .lista-s4 h2{
+        margin: 50px auto !important;
+        text-align: center;
+    }
+    
+    .section-4 .lista-s4 .ul-s4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end !important;
+    
+        margin: 0 !important;
+    }
     
     .section-4 .lista-s4 .ul-s4 ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
         width: 100%;
     }
     
@@ -1128,54 +1143,135 @@ body{
         display: flex;
         flex-direction: row;
     
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
     
         list-style: none !important;
-        font-size: 1.2rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 500;
         color: var(--branco);
         text-shadow: 0 0 50px rgba(0, 0, 0, 0.514);
+        text-align: left !important;
     }
     
     .section-4 .lista-s4 .ul-s4 ul li span{
         display: flex;
         align-items: center;
-        margin-right: 20px;
+        margin: 0 10px;
     
         font-size: 2.4rem;
-        color: var(--primaria);
+        color: var(--secundaria);
     }
     
     .bg-img-s4{
         margin-top: 0;
-        top: 0 !important;
+        margin-bottom: 100px;
         height: auto !important;
         min-height: 300px;
     }
 
-    .bg-img-s4::before{
-        position: absolute;
-        right: 0;
-        left: 15%;
-        bottom: 0;
-        content: "";
-        height: 100%;
-        max-height: 350px;
-        background-image: url(../images/img-s4.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-
-        z-index: 0;
-    }
 
     .bg-img-s4 img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    /* Seção 5 Smartphone*/
+
+    .section-5{
+        padding: 0 !important;
+    }
+
+    .section-5 .v-online .img-s5-1{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        height: auto;
+        min-height: 250px;
+    }
+
+    .section-5 .v-online .img-s5-1 img{
+        width: 100%;
+        max-width: 350px;
+
+        height: auto !important;
+    }
+
+    .section-5 .v-offline .img-s5-2{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+
+        height: auto;
+        min-height: 250px;
+    }
+
+    .section-5 .v-offline .img-s5-2 img{
+        width: 100%;
+        max-width: 350px;
+
+        height: auto;
+    }
+
+    .section-5 h2{
+        color: var(--branco);
+        font-size: 2.8rem;
+        font-weight: bold;
+        text-align: center;
+
+        margin: 40px 0;
+    }
+
+    .section-5 h2 span{
+        color: var(--preto);
+        text-decoration: underline var(--branco);
+    }
+
+    .section-5 .ul-s5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start !important;
+
+        margin: 0 !important;
+    }
+
+    .section-5 .ul-s5 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: left !important;
+        padding: 0;
         width: 100%;
     }
 
-    /* Seção 5 */
-    
+    .section-5 .ul-s5 ul li{
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+
+        list-style: none !important;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--branco);
+        text-shadow: none !important;
+        text-align: left !important;
+    }
+
+    .section-5 .ul-s5 ul li span{
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+
+        font-size: 2.4rem;
+        color: var(--branco);
+    }
 
 
     /* Btn wpp */
@@ -1230,192 +1326,36 @@ body{
 
     /* Seção 6 */
 
-    .section-6{
-        padding: 60px 0;
-        box-sizing: border-box !important;
-        background: rgb(255,100,72);
-        background: linear-gradient(45deg, rgba(255,100,72,1) 0%, rgba(250,195,0,1) 100%);
+    .section-6 .conteudo .ul-s6 ul{
+        padding: 0 !important;
     }
-    
-    .section-6 .titulo,
-    .section-6 .lista-s6{
-        width: 100%;
-    }
-    
-    .section-6 .titulo p{
-        margin-left: 10px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-    
-        padding: 0 30px;
-        color: var(--branco);
-        font-size: 2rem;
-        font-weight: 600;
-        background-color: var(--primaria);
-    }
-    
-    .section-6 .lista-s6{
-        margin-top: 50px;
-    }
-    
-    .section-6 .lista-s6 li{
-        color: var(--branco);
-        font-size: 1.4rem;
-    
-        width: 80%;
-        margin-bottom: 20px;
-    }
-    
-    .section-6 .lista-s6 .ul-s6{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    
-        list-style-type: decimal;
+
+    .section-6 .conteudo .ul-s6 ul li{
+        margin: 0 !important;
+        margin-bottom: 50px !important; 
+
+        font-size: 1rem;
     }
 
     /* Seção 7 */
-    
-    .section-7 .texto-s7 h3{
-        width: 100%;
-    
-        color: var(--branco);
+
+    .section-7 .texto-s7 .h3-s7-2{
+        font-size: 2rem;
+    }
+
+    .section-7 .texto-s7 .h3-s7-2 span{
         font-size: 3rem;
-        font-weight: 700;
-        text-align: center;
-    }
-    
-    .section-7 .texto-s7 p{
-        width: 90%;
-        margin: 60px 0;
-    
-        color: var(--branco);
-        font-size: 1.2rem;
-        font-weight: 600;
-        text-align: center;
-    }
-    
-    .section-7 .texto-s7 .btn-s7{
-        margin: 0 auto;
-        width: 90%;
-    
-        background-color: var(--secundaria);
-    
-        padding: 20px;
-        font-size: 1rem;
-        font-weight: 600;
-        color: var(--branco);
-        text-transform: uppercase;
-    
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 60px 0;
-    
-        border: 2px var(--secundaria) solid;
     }
 
     /* Seção 8 */
 
-    /* Coluna Texto */
-
-    .texto-s8 h3{
-        color: var(--primaria);
-        font-weight: 600;
-        font-size: 1.6rem;
-
-        text-shadow: rgba(0, 0, 0, 0.300) 0 0 60px;
-        text-align: center;
-
-        margin: 0 auto !important;
-        width: 80% !important;
+    .section-8 .col-texto-s8 h3{
+        font-size: 2rem;
     }
 
-
-    .tempo-s8 h3{
-        margin: 0 auto;
-        width: 80%;
-
-        padding: 10px;
-        font-weight: 600;
-        font-size: 1.8rem;
-        text-align: center;
-        color: red;
-        background-color: var(--branco);
+    .section-8 .col-texto-s8 h3 span{
+        font-size: 5rem;
     }
-
-    /* Coluna Formulario */
-
-    .col-formulario-s8{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-
-        height: auto;
-    }
-
-    .logo-s8-resp{
-        display: none;
-    }
-
-    .logo-s8{
-        display: flex;
-        justify-content: center;
-        width: 70%;
-    }
-
-    .logo-s8 img{
-        width: 50%;
-        height: auto;
-        
-        margin-bottom: 20px;
-    }
-
-    .col-formulario-s8{
-        height: auto !important;
-        margin-bottom: 100px !important;
-
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .formulario-s8{ /**/
-        width: 90%;
-        min-width: 300px;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
-    }
-
-    .formulario-s8 form{ /**/
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .formulario-s8 form p{
-        padding: 10px 15px !important;
-        font-size: 1rem !important;
-        line-height: normal !important;
-    }
-
-    .formulario-s8 form .f-s8-input{
-        height: 50px !important;
-        margin-bottom: 10px !important;
-    }
-
-    .formulario-s8 form .f-s8-button{
-        font-size: 1.2rem;
-        height: 60px !important;
-    }
-
-    .formulario-s8 form .f-s8-button:active{
-        color: var(--secundaria) !important;
-        background-color: rgba(255, 255, 255, 0) !important;    
-    }
-
 
 }
 
