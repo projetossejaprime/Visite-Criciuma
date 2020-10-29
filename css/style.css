@@ -1,6 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box !important;
+    outline: none !important;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -893,114 +894,114 @@ body{
 /* Smartphones */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Seção 1 */
+    /* Seção 1 Smartphones*/
 
     .section-1{ /**/
         padding: 0 !important;
         height: auto;
     }
-    /* Coluna Texto */
+        /* Coluna Texto */
 
-    .col-texto-s1{
-        height: auto !important;
-        margin-bottom: 25px !important;
-    }
+        .col-texto-s1{
+            height: auto !important;
+            margin-bottom: 25px !important;
+        }
 
-    .col-texto-s1 .row{
-        width: 100% !important;
-    }
+        .col-texto-s1 .row{
+            width: 100% !important;
+        }
 
-    .logo-s1{
-        display: none !important;
-    }
+        .logo-s1{
+            display: none !important;
+        }
 
-    .logo-s1-resp{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+        .logo-s1-resp{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
 
-    .logo-s1-resp img{
-        width: 50%;
-        height: auto;
-        
-        margin: 20px 0 !important;
-    }
+        .logo-s1-resp img{
+            width: 50%;
+            height: auto;
+            
+            margin: 20px 0 !important;
+        }
 
-    .texto-s1{
-        margin-top: 25px !important;
-        width: 100% !important;
-        text-align: center;
-    }
+        .texto-s1{
+            margin-top: 25px !important;
+            width: 100% !important;
+            text-align: center;
+        }
 
-    .texto-s1 h2{
-        font-size: 2.4rem !important;
-        text-align: center !important;
-        line-height: 3.2rem;
-    }
-    .texto-s1 small{
-        font-size: 1.2rem !important;
-        text-align: center !important;
-        margin: 0 auto !important;
-    }
-    .texto-s1 p{
-        padding-right: 0 !important;
-        text-align: center !important;
-        font-size: 1.2rem !important;
-    }
+        .texto-s1 h2{
+            font-size: 2.4rem !important;
+            text-align: center !important;
+            line-height: 3.2rem;
+        }
+        .texto-s1 small{
+            font-size: 1.2rem !important;
+            text-align: center !important;
+            margin: 0 auto !important;
+        }
+        .texto-s1 p{
+            padding-right: 0 !important;
+            text-align: center !important;
+            font-size: 1.2rem !important;
+        }
 
-    .img-s1{
-        display: none;
-    }
+        .img-s1{
+            display: none;
+        }
 
-    /* Coluna Formulario */
+        /* Coluna Formulario */
 
-    .col-formulario-s1{
-        height: auto !important;
-        margin-bottom: 100px !important;
+        .col-formulario-s1{
+            height: auto !important;
+            margin-bottom: 100px !important;
 
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
 
-    .formulario-s1{ /**/
-        width: 90%;
-        min-width: 300px;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
-    }
+        .formulario-s1{ /**/
+            width: 90%;
+            min-width: 300px;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
+        }
 
-    .formulario-s1 form{ /**/
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+        .formulario-s1 form{ /**/
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
-    .formulario-s1 form p{
-        padding: 10px 15px !important;
-        font-size: 1rem !important;
-        line-height: normal !important;
-    }
+        .formulario-s1 form p{
+            padding: 10px 15px !important;
+            font-size: 1rem !important;
+            line-height: normal !important;
+        }
 
-    .formulario-s1 form .f-s1-input{
-        height: 50px !important;
-        margin-bottom: 10px !important;
-    }
+        .formulario-s1 form .f-s1-input{
+            height: 50px !important;
+            margin-bottom: 10px !important;
+        }
 
-    .formulario-s1 form .f-s1-button{
-        font-size: 1.2rem;
-        height: 60px !important;
-    }
+        .formulario-s1 form .f-s1-button{
+            font-size: 1.2rem;
+            height: 60px !important;
+        }
 
-    .formulario-s1 form .f-s1-button:active{
-        color: var(--secundaria) !important;
-        background-color: rgba(255, 255, 255, 0) !important;    
-    }
+        .formulario-s1 form .f-s1-button:active{
+            color: var(--secundaria) !important;
+            background-color: rgba(255, 255, 255, 0) !important;    
+        }
 
-    /* Seção 2 */
+    /* Seção 2 Smartphones*/
 
     .section-2{
         position: relative;
@@ -1025,48 +1026,48 @@ body{
         opacity: 1;
     }
 
-    /* Coluna Texto */
+        /* Coluna Texto */
 
-    .col-texto-s2{
-        margin-top: 50px;
-        height: auto;
+        .col-texto-s2{
+            margin-top: 50px;
+            height: auto;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        padding: 0 !important;
-    }
+            padding: 0 !important;
+        }
 
-    .col-texto-s2 .texto-s2{
-        width: 100% !important;
+        .col-texto-s2 .texto-s2{
+            width: 100% !important;
 
-        padding: 0 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+            padding: 0 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        text-align: center;
-        color: var(--branco);
-    }
+            text-align: center;
+            color: var(--branco);
+        }
 
-    .texto-s2 h2{
-        font-size: 2.4rem !important;
-        margin-bottom: 50px !important;
-    }
-    .texto-s2 p{
-        padding: 50px 0 !important;
-        font-size: 1.2rem !important;
-        line-height: 1.7rem !important;
-    }
+        .texto-s2 h2{
+            font-size: 2.4rem !important;
+            margin-bottom: 50px !important;
+        }
+        .texto-s2 p{
+            padding: 50px 0 !important;
+            font-size: 1.2rem !important;
+            line-height: 1.7rem !important;
+        }
 
-    .col-img-s2{
-        display: none;
-    }
+        .col-img-s2{
+            display: none;
+        }
 
-    /* Seção 3 */
+    /* Seção 3 Smartphones*/
 
     .section-3 .lista-s3{
         padding: 0 !important;
@@ -1119,7 +1120,7 @@ body{
     }   
 
 
-    /* Seção 4 */
+    /* Seção 4 Smartphones*/
 
     .section-4 .lista-s4 h2{
         margin: 50px auto !important;
@@ -1142,6 +1143,7 @@ body{
     .section-4 .lista-s4 .ul-s4 ul li{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     
         width: 100%;
         margin-bottom: 20px;
@@ -1179,7 +1181,7 @@ body{
         z-index: 100;
     }
 
-    /* Seção 5 Smartphone*/
+    /* Seção 5 Smartphones*/
 
     .section-5{
         padding: 0 !important;
@@ -1274,7 +1276,7 @@ body{
     }
 
 
-    /* Btn wpp */
+    /* Btn wpp Smartphones*/
     
     .section-wpp .texto-wpp{
         padding: 60px 0;
@@ -1324,20 +1326,55 @@ body{
         margin-right: 10px !important;
     }
 
-    /* Seção 6 */
+    /* Seção 6 Smartphones*/
+
+    .section-6 .conteudo h3{
+        font-size: 2rem;
+        margin-bottom: 30px !important;
+    }
 
     .section-6 .conteudo .ul-s6 ul{
         padding: 0 !important;
     }
 
     .section-6 .conteudo .ul-s6 ul li{
-        margin: 0 !important;
-        margin-bottom: 50px !important; 
+        margin: 0 0 0 0 !important;
+        width: 100%;
+        font-size: .9rem;
+    }
 
-        font-size: 1rem;
+    .section-6 .conteudo .ul-s6 ul li span{
+        font-size: 4rem;
+
+        margin: 0 15px !important;
+        min-width: 40px !important;
+        max-width: 40px !important;
     }
 
     /* Seção 7 */
+
+    .section-7 .texto-s7 .circulo-s7{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .section-7 .texto-s7 .circulo-s7 h4{
+        font-size: 6.4rem !important;
+    }
+
+    .section-7 .texto-s7 .h3-s7-1{
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .section-7 .texto-s7 .h3-s7-1 img{
+        width: 70% !important;
+    }
+
+    .section-7 .texto-s7 p{
+        font-size: 1.2rem !important;
+        line-height: normal !important;
+    }
 
     .section-7 .texto-s7 .h3-s7-2{
         font-size: 2rem;
@@ -1349,12 +1386,77 @@ body{
 
     /* Seção 8 */
 
+    .section-8 .col-texto-s8{
+        padding: 50px 0;
+    }
+
     .section-8 .col-texto-s8 h3{
         font-size: 2rem;
+        line-height: normal;
     }
 
     .section-8 .col-texto-s8 h3 span{
         font-size: 5rem;
+        line-height: 4rem !important;
+    }
+
+    .section-8 .col-texto-s8 ul{
+        align-items: flex-start;
+    }
+
+    .section-8 .col-texto-s8 ul li{
+        font-size: 1.4rem;
+        text-align: left !important;
+    }
+
+    .section-8 .col-texto-s8 .caixa-texto-s8{
+        width: 100% !important;
+        padding: 20px 30px;
+
+        border: none !important;
+        border-radius: 12px !important;
+        background-color: var(--gelo);
+    }
+
+    .section-8 .col-texto-s8 .caixa-texto-s8 p{
+        font-size: 1rem;
+    }
+
+    /* Seção 9 Smartphone */
+
+    .section-9 .col-conteudo-s9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    .section-9 .col-conteudo-s9 h3{
+        font-size: 1.2rem !important;
+    }
+
+    .section-9 .col-conteudo-s9 h3 span{
+        font-size: 2rem !important;
+    }
+
+    .section-9 .col-conteudo-s9 p{
+        font-size: 1.2rem;
+        
+        width: 100%;
+        margin: 30px 0 !important;
+    }
+
+    .section-9 .col-conteudo-s9 .btn-saber-mais-s9{
+        width: 200px !important;
+        padding: 10px 15px;
+
+        font-size: 1.2rem;
+        margin: 0 auto !important;
+    }
+
+    .section-9 .img-s9{
+        display: none;
     }
 
 }
