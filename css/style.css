@@ -882,7 +882,6 @@ body{
     padding-right: 0 !important;
 }
 
-
 .section-9 .img-s9 img{
     position: absolute;
     right: 0;
@@ -900,7 +899,7 @@ body{
         padding: 0 !important;
         height: auto;
     }
-        /* Coluna Texto */
+        /* Coluna Texto Smartphones*/
 
         .col-texto-s1{
             height: auto !important;
@@ -954,7 +953,7 @@ body{
             display: none;
         }
 
-        /* Coluna Formulario */
+        /* Coluna Formulario Smartphones*/
 
         .col-formulario-s1{
             height: auto !important;
@@ -1026,7 +1025,7 @@ body{
         opacity: 1;
     }
 
-        /* Coluna Texto */
+        /* Coluna Texto Smartphones*/
 
         .col-texto-s2{
             margin-top: 50px;
@@ -1351,7 +1350,7 @@ body{
         max-width: 40px !important;
     }
 
-    /* Seção 7 */
+    /* Seção 7 Smartphones*/
 
     .section-7 .texto-s7 .circulo-s7{
         width: 150px !important;
@@ -1384,7 +1383,7 @@ body{
         font-size: 3rem;
     }
 
-    /* Seção 8 */
+    /* Seção 8 Smartphones*/
 
     .section-8 .col-texto-s8{
         padding: 50px 0;
@@ -1464,110 +1463,110 @@ body{
 /* Tablets */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     
-    /* Seção 1 */
+    /* Seção 1 Tablets*/
 
     .section-1{
         padding: 0 !important;
         height: auto;
     }
 
-    /* Coluna Texto */
+        /* Coluna Texto Tablets*/
 
-    .col-texto-s1{
-        height: auto !important;
-        margin-bottom: 50px !important;
-        text-align: center;
-    }
+        .col-texto-s1{
+            height: auto !important;
+            margin-bottom: 50px !important;
+            text-align: center;
+        }
 
-    .col-texto-s1 .row{
-        width: 100% !important;
-    }
+        .col-texto-s1 .row{
+            width: 100% !important;
+        }
 
-    .logo-s1{
-        display: none !important;
-    }
+        .logo-s1{
+            display: none !important;
+        }
 
-    .logo-s1-resp{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+        .logo-s1-resp{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
 
-    .logo-s1-resp img{
-        width: 35%;
-        height: auto;
-        
-        margin: 20px 0 !important;
-    }
+        .logo-s1-resp img{
+            width: 35%;
+            height: auto;
+            
+            margin: 20px 0 !important;
+        }
 
-    .texto-s1{
-        width: 80% !important;
-        margin: 0 auto !important;
-    }
+        .texto-s1{
+            width: 80% !important;
+            margin: 0 auto !important;
+        }
 
-    .texto-s1 h1{
-        font-size: 2.4rem !important;
-        text-align: center !important;
-    }
-    .texto-s1 h1 small{
-        font-size: 1.2rem !important;
-        text-align: center !important;
-    }
-    .texto-s1 p{
-        padding-right: 0 !important;
-        text-align: center !important;
-        font-size: 1.2rem !important;
-    }
+        .texto-s1 h1{
+            font-size: 2.4rem !important;
+            text-align: center !important;
+        }
+        .texto-s1 h1 small{
+            font-size: 1.2rem !important;
+            text-align: center !important;
+        }
+        .texto-s1 p{
+            padding-right: 0 !important;
+            text-align: center !important;
+            font-size: 1.2rem !important;
+        }
 
-    /* Coluna Formulario */
+        /* Coluna Formulario Tablets*/
 
-    .col-formulario-s1{
-        height: auto !important;
-        margin: 0 auto;
-        margin-bottom: 150px !important;
+        .col-formulario-s1{
+            height: auto !important;
+            margin: 0 auto;
+            margin-bottom: 150px !important;
 
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
 
-    .formulario-s1{ /**/
-        width: 100%;
-        min-width: 300px;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
-    }
+        .formulario-s1{ /**/
+            width: 100%;
+            min-width: 300px;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
+        }
 
-    .formulario-s1 form{ /**/
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+        .formulario-s1 form{ /**/
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
-    .formulario-s1 form p{
-        padding: 10px 15px !important;
-        font-size: 1rem !important;
-        line-height: normal !important;
-    }
+        .formulario-s1 form p{
+            padding: 10px 15px !important;
+            font-size: 1rem !important;
+            line-height: normal !important;
+        }
 
-    .formulario-s1 form .f-s1-input{
-        height: 50px !important;
-        margin-bottom: 10px !important;
-    }
+        .formulario-s1 form .f-s1-input{
+            height: 50px !important;
+            margin-bottom: 10px !important;
+        }
 
-    .formulario-s1 form .f-s1-button{
-        font-size: 1.2rem;
-        height: 60px !important;
-    }
+        .formulario-s1 form .f-s1-button{
+            font-size: 1.2rem;
+            height: 60px !important;
+        }
 
-    .formulario-s1 form .f-s1-button:active{
-        color: var(--secundaria) !important;
-        background-color: rgba(255, 255, 255, 0) !important;    
-    }
+        .formulario-s1 form .f-s1-button:active{
+            color: var(--secundaria) !important;
+            background-color: rgba(255, 255, 255, 0) !important;    
+        }
 
-    /* Seção 2 */
+    /* Seção 2 Tablets*/
 
     .section-2{
         position: relative;
@@ -1592,72 +1591,84 @@ body{
         opacity: 1;
     }
 
-    /* Coluna Texto */
+        /* Coluna Texto Tablets*/
 
-    .col-texto-s2{
-        margin-top: 50px;
-        height: auto;
+        .col-texto-s2{
+            margin-top: 50px;
+            height: auto;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        padding: 0 !important;
-    }
+            padding: 0 !important;
+        }
 
-    .col-texto-s2 .texto-s2{
-        width: 100% !important;
+        .col-texto-s2 .texto-s2{
+            width: 100% !important;
 
-        padding: 0 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+            padding: 0 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        text-align: center;
-        color: var(--branco);
-    }
+            text-align: center;
+            color: var(--branco);
+        }
 
-    .texto-s2 h2{
-        font-size: 2.4rem !important;
-        margin-bottom: 50px !important;
-    }
-    .texto-s2 p{
-        padding: 50px 0 !important;
-        font-size: 1.2rem !important;
-        line-height: 1.7rem !important;
-    }
+        .texto-s2 h2{
+            font-size: 2.4rem !important;
+            margin-bottom: 50px !important;
+        }
+        .texto-s2 p{
+            padding: 50px 0 !important;
+            font-size: 1.2rem !important;
+            line-height: 1.7rem !important;
+        }
 
-    /* Imagem */
+        /* Imagem Tablets*/
 
-    .col-img-s2{
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
+        .col-img-s2{
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
 
-    .img-s2{
-        position: relative;
-    }
+        .img-s2{
+            position: relative;
+        }
 
-    /* Seção 3 */
+    /* Seção 3 Tablets*/
 
     .bg-img-s3{
         display: none;
     }
 
-    /* Seção 4 */
+    /* Seção 4 Tablets*/
+
+    .section-4 .lista-s4 h2{
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .section-4 .lista-s4 .ul-s4 ul{
+        width: 100%;
+    }
+
+    .section-4 .lista-s4 .ul-s4 ul li{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right !important;
+    }
 
     .bg-img-s4{
         display: none !important;
     }
 
-    /* Seção 5 */
-
-
-
-    /* Btn wpp */
+    /* Btn wpp Tablets*/
 
     .texto-wpp p{
         font-size: 2.4rem !important;
@@ -1668,82 +1679,123 @@ body{
         width: 70% !important;
     }
 
-    /* Seção 7 */
+    /* Seção 6 Tablets*/
+
+    .section-6 .conteudo h3{
+        font-size: 2rem;
+        margin-bottom: 30px !important;
+    }
+
+    .section-6 .conteudo .ul-s6 ul{
+        padding: 0 !important;
+    }
+
+    .section-6 .conteudo .ul-s6 ul li{
+        margin: 0 auto !important;
+        width: 80%;
+        font-size: .9rem;
+    }
+
+    .section-6 .conteudo .ul-s6 ul li span{
+        font-size: 4rem;
+
+        margin: 0 15px !important;
+        min-width: 40px !important;
+        max-width: 40px !important;
+    }
+
+    /* Seção 7 Tablets*/
 
     .section-7 .texto-s7 .btn-s7{ 
         min-width: 550px;
-    } 
-
-    /* Seção 8 */
-
-    .col-texto-s8{
-        margin: 60px auto !important;
     }
 
-    .tempo-s8{
-        margin: 60px !important;
+    /* Seção 8 Tablets*/
+
+     .section-8 .col-texto-s8{
+        padding: 50px 0;
     }
 
-    /* Coluna Formulario */
-
-    .col-formulario-s8{
-        height: auto !important;
-        margin: 0 auto;
-        margin-bottom: 150px !important;
-
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+    .section-8 .col-texto-s8 h3{
+        font-size: 2rem;
+        line-height: normal;
     }
 
-    .formulario-s8{
-        width: 100%;
-        min-width: 300px;
-        max-width: 400px;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
+    .section-8 .col-texto-s8 h3 span{
+        font-size: 5rem;
+        line-height: 4rem !important;
     }
 
-    .formulario-s8 form{ /**/
-        padding: 15px;
+    .section-8 .col-texto-s8 ul{
+        align-items: flex-start;
+    }
+
+    .section-8 .col-texto-s8 ul li{
+        font-size: 1.4rem;
+        text-align: left !important;
+    }
+
+    .section-8 .col-texto-s8 .caixa-texto-s8{
+        width: 60% !important;
+        padding: 20px 30px;
+
+        border: none !important;
+        border-radius: 12px !important;
+        background-color: var(--gelo);
+    }
+
+    .section-8 .col-texto-s8 .caixa-texto-s8 p{
+        font-size: 1rem;
+    }
+
+    /* Seção 9 Tablets */
+
+    .section-9 .col-conteudo-s9{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 30px 20px;
     }
 
-    .formulario-s8 form p{
-        padding: 10px 15px !important;
-        font-size: 1rem !important;
-        line-height: normal !important;
+    .section-9 .col-conteudo-s9 h3{
+        font-size: 1.2rem !important;
     }
 
-    .formulario-s8 form .f-s8-input{
-        height: 50px !important;
-        margin-bottom: 10px !important;
+    .section-9 .col-conteudo-s9 h3 span{
+        font-size: 2rem !important;
     }
 
-    .formulario-s8 form .f-s8-button{
+    .section-9 .col-conteudo-s9 p{
         font-size: 1.2rem;
-        height: 60px !important;
+        
+        width: 100%;
+        margin: 30px 0 !important;
     }
 
-    .formulario-s8 form .f-s8-button:active{
-        color: var(--secundaria) !important;
-        background-color: rgba(255, 255, 255, 0) !important;    
+    .section-9 .col-conteudo-s9 .btn-saber-mais-s9{
+        width: 200px !important;
+        padding: 10px 15px;
+
+        font-size: 1.2rem;
+        margin: 0 auto !important;
+    }
+
+    .section-9 .img-s9{
+        display: none;
     }
 }
 
 /* Telas Pequenas */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1340px){
-    /* Seção 1 */
+    /* Seção 1 Telas Pequenas*/
 
     .section-1{
         padding: 0 !important;
         height: 120vh !important;
     }
 
-    /* Coluna Texto */
+    /* Coluna Texto Telas Pequenas*/
 
     .col-texto-s1{
         height: auto !important;
@@ -1792,7 +1844,7 @@ body{
         font-size: 1rem !important;
     }
 
-    /* Coluna Formulario */
+    /* Coluna Formulario Telas Pequenas*/
 
     .col-formulario-s1{
         height: auto !important;
@@ -1839,7 +1891,7 @@ body{
         background-color: rgba(255, 255, 255, 0) !important;    
     }
 
-    /* Seção 2 */
+    /* Seção 2 Telas Pequenas*/
 
     .section-2{
         position: relative;
@@ -1864,7 +1916,7 @@ body{
         opacity: 1;
     }
 
-    /* Coluna Texto */
+    /* Coluna Texto Telas Pequenas*/
 
     .col-texto-s2{
         margin-top: 50px;
@@ -1901,7 +1953,7 @@ body{
         line-height: 1.7rem !important;
     }
 
-    /* Imagem */
+    /* Imagem Telas Pequenas*/
 
     .col-img-s2{
         display: flex !important;
@@ -1913,7 +1965,7 @@ body{
         position: relative;
     }
 
-    /* Seção 3 */
+    /* Seção 3 Telas Pequenas*/
     
     .section-3 .lista-s3{
         padding: 30px 0;
@@ -1971,13 +2023,14 @@ body{
     }
     
     .bg-img-s3 img{
+        margin-top: 75px;
         width: auto;
         max-height: 600px;
 
         z-index: 100;
     }
 
-    /* Seção 4 */
+    /* Seção 4 Telas Pequenas*/
 
     .section-4{
         background-color: var(--secundaria);
@@ -2016,7 +2069,7 @@ body{
         flex-direction: column;
         align-items: center;
         padding: 0;
-        width: 50%;
+        width: 70%;
     }
     
     .section-4 .lista-s4 .ul-s4 ul li{
@@ -2052,31 +2105,13 @@ body{
     }
     
     .bg-img-s4 img{
-        position: relative;
-        width: 100%;
-    }
-    
-    
-    .bg-img-s4::before{
-        position: absolute;
-        right: 0;
-        left: 120px;
-        bottom: 0;
-        content: "";
-        height: 600px;
-        background-image: url(../images/img-s4.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    
-        z-index: 10;
+        margin-top: 150px;
+
+        position: relative !important;
+        width: 140%;
     }
 
-    /* Seção 5 */
-
-
-    
-    /* Btn wpp */
+    /* Btn wpp Telas Pequenas*/
 
     .texto-wpp p{
         font-size: 2.4rem !important;
@@ -2087,62 +2122,74 @@ body{
         width: 70% !important;
     }
 
-    /* Seção 7 */
+    /* Seção 6 Telas Pequenas*/
+
+    .section-6 .conteudo .ul-s6 .lista-s6 li{
+        width: 70%;
+        font-size: 1.8rem;
+    }
+
+    /* Seção 7 Telas Pequenas*/
 
     .section-7 .texto-s7 .btn-s7{ 
         min-width: 550px;
     } 
 
-    /* Seção 8 */
+    /* Seção 8 Telas Pequenas*/
  
-    /* Coluna Formulario */
-
-    .col-texto-s8 .texto-s8 h3{
-        font-size: 2rem !important;
-    }
-
-    .col-texto-s8 .tempo-s8 h3{
-        font-size: 2rem !important;
-    }
-
-    .col-formulario-s8{
-        height: auto !important;
-        margin: auto 0 !important;
+    .section-8 .col-texto-s8 ul{
+        width: 80%;
 
         display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+        align-items: flex-start;
+        justify-content: flex-start;
+    } 
+
+    .section-8 .col-texto-s8 ul li{
+        font-size: 1.6rem;
+        font-weight: bold;
     }
 
-    .formulario-s8{ /**/
-        min-width: 300px;
-        max-width: 400px;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.300) 0 0 20px 0;
+    .section-8 .col-texto-s8 .caixa-texto-s8{
+        width: 70% !important;
+        padding: 20px 30px;
+
+        border: none !important;
+        border-radius: 12px !important;
+        background-color: var(--gelo);
     }
 
-    .formulario-s8 form{ /**/
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .section-8 .col-texto-s8 .caixa-texto-s8 p{
+        font-size: 1rem;
     }
 
-    .formulario-s8 form p{
-        padding: 10px 15px !important;
-        font-size: 1rem !important;
-        line-height: normal !important;
-    }
+    /* Seção 9 Telas Pequenas */
 
-    .formulario-s8 form .f-s8-input{
-        height: 50px !important;
-        margin-bottom: 10px !important;
+    .section-9 .col-conteudo-s9 .btn-saber-mais-s9{
+        width: 50%;
+        max-width: 250px;
+    
+        padding: 15px 20px;
     }
-
-    .formulario-s8 form .f-s8-button{
-        font-size: 1.2rem !important;
-        height: 60px !important;
+    
+    .section-9 .col-conteudo-s9 .btn-saber-mais-s9:hover{
+        color: var(--secundaria);
+    
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid var(--secundaria) !important;
+        border-radius: 50px;
+    }
+    
+    .section-9 .img-s9{
+        padding-right: 0 !important;
+    }
+    
+    .section-9 .img-s9 img{
+        position: absolute;
+        right: 0 !important;
+        bottom: 0;
+        width: 170%;
+        max-width: 500px;
     }
 }
 
