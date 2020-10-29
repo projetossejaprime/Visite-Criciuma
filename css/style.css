@@ -12,7 +12,8 @@ textarea:focus, input:focus, select:focus {
 :root{
     --primaria: #ff544f;
     --primaria-claro: rgb(63,104,255);
-    --secundaria: rgb(255, 141, 50);
+    --secundaria: rgb(255, 97, 0);
+    --secundaria-claro: rgb(255, 142, 50);
 
     --verde: rgb(1, 171, 108);
 
@@ -326,7 +327,7 @@ body{
     margin-right: 20px;
 
     font-size: 2.4rem;
-    color: var(--secundaria);
+    color: var(--branco);
 }
 
 .bg-img-s3{
@@ -344,7 +345,7 @@ body{
     z-index: 100;
 }
 
-/* Section 4 */
+/* Seção 4 */
 
 .section-4{
     background: var(--gradiente-linear-2);
@@ -409,7 +410,7 @@ body{
     margin: 0 20px;
 
     font-size: 2.4rem;
-    color: var(--primaria);
+    color: var(--secundaria);
 }
 
 .bg-img-s4{
@@ -590,12 +591,16 @@ body{
     margin: 0 20px;
 }
 
-/* Section 6 */
+/* Seção 6 */
 
 .section-6{
     padding: 80px 0;
     box-sizing: border-box !important;
-    background-color: var(--cinza);
+    background: var(--gradiente-linear);
+}
+
+.section-6 .conteudo{
+    padding: 0 !important;
 }
 
 .section-6 h3{
@@ -606,7 +611,7 @@ body{
     color: var(--branco);
 
     padding: 20px 0;
-    background-color: rgb(206, 120, 22);
+    background-color: var(--cinza);
     margin-bottom: 120px !important;
 }
 
@@ -643,10 +648,11 @@ body{
     width: 20%;
 }
 
-/* Section 7 */
+/* Seção 7 */
 
 .section-7{
-    background: var(--gradiente-linear-3);
+    background-image: url(../images/bg-s7.png);
+    background-size: cover;
 }
 
 .section-7 .texto-s7{
@@ -795,7 +801,7 @@ body{
     margin: 0;
 }
 
-/* Section 9 */
+/* Seção 9 */
 
 .section-9{
     padding: 0 !important;
@@ -827,13 +833,23 @@ body{
 .section-9 .col-conteudo-s9 p{
     width: 80%;
     margin: 50px 0;
-    color: var(--secundaria);
+    color: var(--secundaria-claro);
     font-size: 1.6rem;
     font-weight: 500;
 }
 
 .section-9 .col-conteudo-s9 p span{
     color: var(--branco);
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: var(--secundaria-claro);
+}
+
+.section-9 .col-conteudo-s9 p span.inverter{
+    color: var(--secundaria-claro);
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: var(--branco);
 }
 
 .section-9 .col-conteudo-s9 .btn-saber-mais-s9{
